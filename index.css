@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "montserrat regular";
+    src: url(".//font/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraBold";
+    src: url(".//font/Montserrat-ExtraBold.ttf");
+}
+  
+body {
+    margin: 0;
+}
+
+.retangulo-logo {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logotipo-cabecalho { 
+    width: 150px;
+    align-items: center;
+}
+
+.retangulo-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 25, 25);
+    height: 40px;
+    margin-top: 0px;
+}
+
+header {
+	background-color: rgb(26, 25, 25);
+	height: 50px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav li.right {
+	float: right;
+}
+
+nav li a {
+    border-radius: 10px; /*DEIXA A BORDA AREDONDADA*/
+    font-family: "montserrat regular";
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 14px 50px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: red;
+}
+
+.bloco {
+    background-color: white;
+    height: 100px;
+}
+
+footer {
+    background-image: url('../FITLIFE/img/footer.png');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    padding: 50px;
+}
+
+/*Preços*/
+
+.pacotes{ /*FUNDO E ESPAÇAMENTO DA PAGINA*/
+	padding: 50px 0px;
+	background-color: #ffffff;
+}
+.pacotes h2{ /*TITULO CONHEÇA NOSSOS PLANOS*/
+	font-size: 30px;
+	color:black;
+	text-align: center;
+	font-family: "Montserrat-ExtraBold";
+}
+.conteudo-titulo{ /*CONTEUDO DO TEXTO ANTES DOS PLANOS*/
+	font-size: 15px;
+ 	line-height: 20px;
+	color:#222222;
+ 	margin:0;
+	text-align: center;
+ 	padding:0 20% 50px;
+	font-family: "montserrat regular";
+}
+.conteudo-planos{ /*CAIXAS ONDE LOCALIZA OS PLANOS*/
+	display: flex;
+	padding: 0px 120px;
+}
+.caixa-planos{
+	flex: 0 0 33%;
+	max-width: 33%;
+	padding: 10px;
+}
+.fundo-planos{ /*BACKGROUND DA PAGINA*/
+	background-color: #f0f0f0;
+}
+.nome-plano{ /*TAG ONDE ESTA ESCRITO O NOME DO PLANO*/
+	padding: 15px;
+	font-size: 20px;
+	background-color: red;
+	color:white;
+	text-align: center;
+    font-family: "Montserrat-ExtraBold";
+}
+.descricao-plano{
+	padding:30px 15px;
+	text-align: center;
+}
+.descricao-plano h3{ /*VALOR DO PLANO*/
+	font-size: 24px;
+	color:black;
+	margin:0;
+	padding: 5px 0px 5px;
+    font-family: "Montserrat-ExtraBold";
+}
+.descricao-plano p{ /*CONTEUDO DO PLANO*/
+	font-size: 15px;
+	line-height: 30px;
+	color: black;
+	margin:0;
+	text-align: center;
+	padding:0 0 5px;
+	font-family: "montserrat regular";
+}
+.botao-plano{ /*BOTÃO DE ASSISNAR PLANO ESTATICO*/
+    padding: 8px 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 10px;
+	font-family: "Montserrat-ExtraBold";
+}
+.botao-plano:hover{ /*BOTÃO DE ASSINAR PLANO QUANDO PASSADO O MOUSE*/
+	background-color: red;
+	color:#000000;
+	font-family: "Montserrat-ExtraBold";
+}
+.img img{ /*PROPORÇÃO DA IMAGEM DENTRO DO BACKGROUND*/
+	width: 100%;
+}
+
+
+
+
+
+
+
+.coluna {
+    width: calc(33.33% - 10px);
+    margin-right: 10px;
+}
+    
+footer h4 {
+    font-family: "Montserrat-ExtraBold";
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+footer p {
+    font-family: "montserrat regular";
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+  
+footer a {
+    font-family: "montserrat regular";
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    font-family: "montserrat regular";
+    color: red;
+}
